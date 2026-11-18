@@ -33,6 +33,16 @@ Run `mdbook build` to build the book. The generated files are written to `book/`
 
 `mdbook build` を実行すると、`book/` にビルド結果が出力されます。
 
+## Publish with GitHub Pages / GitHub Pagesで公開する
+
+Set the repository's Pages source to **GitHub Actions** in **Settings → Pages**. The workflow deploys the book when changes are pushed to `main`. You can also start a deployment from the Actions tab.
+
+リポジトリの **Settings → Pages** で、公開元を **GitHub Actions** に設定します。`main` に変更をpushすると自動でデプロイされます。Actionsタブから手動で実行することもできます。
+
+The site URL for this repository is `https://localhackerscommunity.github.io/BLOG/`.
+
+このリポジトリの公開URLは `https://localhackerscommunity.github.io/BLOG/` です。
+
 ## Authoring requirements / 作成ルール
 
 - Keep each session focused on **one topic**.
