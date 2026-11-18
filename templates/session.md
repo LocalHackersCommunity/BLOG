@@ -17,6 +17,17 @@
 {{#endtab }}
 {{#endtabs }}
 
+## Prerequisites / 前提条件
+
+{{#tabs }}
+{{#tab name="English" }}
+[In one or two short sentences, say what participants need before the session. Include required knowledge, operating systems, and tools. Name versions when they matter, and mark optional tools as optional. If nothing is required, say: “No special prerequisites are needed.”]
+{{#endtab }}
+{{#tab name="日本語" }}
+[参加者が事前に必要とする知識、OS、ツールを1〜2文で説明します。バージョンが重要な場合は明記し、任意のツールは「任意」と示します。特に必要なものがなければ、「特別な前提条件はありません」と書きます。]
+{{#endtab }}
+{{#endtabs }}
+
 ## Explanation / 説明
 
 {{#tabs }}
