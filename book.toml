@@ -1,0 +1,13 @@
+[book]
+title = "Study Group Notes / 勉強会資料"
+language = "en"
+src = "src"
+
+[preprocessor.tabs]
+
+[preprocessor.mermaid]
+command = "mdbook-mermaid"
+
+[output.html]
+additional-css = ["theme/tabs.css", "theme/session.css"]
+additional-js = ["theme/tabs.js", "mermaid.min.js", "mermaid-init.js"]

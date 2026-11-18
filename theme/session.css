@@ -1,0 +1,49 @@
+.session-photo {
+    box-sizing: border-box;
+    float: right;
+    width: 42%;
+    max-width: 320px;
+    margin: 0.25rem 0 1rem 1rem;
+}
+
+.session-photo img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.session-photo figcaption {
+    margin-top: 0.4rem;
+    font-size: 0.75em;
+    line-height: 1.4;
+}
+
+.mdbook-tab-content::after {
+    display: table;
+    clear: both;
+    content: "";
+}
+
+.example-file {
+    margin: 0.75rem 0;
+    padding: 0.6rem 0.8rem;
+    border: 1px solid var(--table-border-color, #c8c8c8);
+    border-radius: 0.35rem;
+}
+
+.example-file > summary {
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.example-file pre {
+    overflow-x: auto;
+}
+
+@media (max-width: 700px) {
+    .session-photo {
+        float: none;
+        width: min(100%, 320px);
+        margin: 0 auto 1rem;
+    }
+}

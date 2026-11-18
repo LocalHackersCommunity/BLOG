@@ -1,0 +1,21 @@
+
+hello:     file format elf64-littleaarch64
+
+
+Disassembly of section .init:
+
+Disassembly of section .plt:
+
+Disassembly of section .text:
+
+0000000000400684 <main>:
+  400684:	a9bf7bfd 	stp	x29, x30, [sp, #-16]!
+  400688:	910003fd 	mov	x29, sp
+  40068c:	90000000 	adrp	x0, 400000 <__abi_tag-0x254>
+  400690:	911b0000 	add	x0, x0, #0x6c0
+  400694:	97ffffaf 	bl	400550 <printf@plt>
+  400698:	52800000 	mov	w0, #0x0                   	// #0
+  40069c:	a8c17bfd 	ldp	x29, x30, [sp], #16
+  4006a0:	d65f03c0 	ret
+
+Disassembly of section .fini:
